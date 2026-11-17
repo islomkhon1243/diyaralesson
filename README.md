@@ -1,12 +1,9 @@
-# Career City — World of Work
+# Career City
 
-An interactive English lesson quest for the jobs vocabulary unit.
+Interactive English lesson with recorded audio, illustrated jobs and a camera career-resume activity.
 
-## Run locally
-Open `index.html` in a modern browser. Keep `audio/` and `images/` beside it.
+Open index.html or publish the main branch root with GitHub Pages. Camera access needs HTTPS or localhost and explicit browser permission.
 
-## Career Scanner
-The teacher starts the scanner, students take turns in front of the camera, and a random job is assigned with a playful costume overlay. Camera access is requested only after pressing Start. Photo processing stays in the browser tab; no face recognition, uploads, or server storage. Finishing the scan stops the camera and opens the class gallery. Download or print the gallery before ending the session.
+The camera selects a random profession. It does not identify people or predict careers. Portrait resumes include illustrated profession stickers.
 
-## Deploy with GitHub Pages
-In repository Settings → Pages, publish from the `main` branch and root folder.
+Photos are stored locally in this browser using IndexedDB. Refreshing or closing the tab does not clear the gallery. Open Career Scanner → Saved gallery to revisit it. Delete all photos requires confirmation. Clearing browser site data or using private browsing can remove this local storage. Photos are not uploaded or shared between devices. Download the gallery for a backup.
